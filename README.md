@@ -5,7 +5,9 @@ This framework simplifies testing by reusing POM components and supporting cross
 
 
 Key Components
+
 Package Contents
+
 Data.ExcelReader: Reads test data (e.g., browser names) from an Excel file.
 FactoryDesignPattern.BrowserDriverFactory: Provides browser-specific WebDriver instances.
 Pom.Pages: Contains POM classes for the application's web pages:
@@ -20,7 +22,9 @@ testAutomationRegisterUser: Automates user registration on the website, leveragi
 Usage
 
 
+
 Pre-requisites:
+
 Install Java and Selenium dependencies.
 Set up TestNG for test execution.
 Ensure the Excel file with test data is available and correctly formatted.
@@ -29,6 +33,7 @@ Ensure the Excel file with test data is available and correctly formatted.
 
 
 Running the Test:
+
 Execute the UserRegister class as a TestNG test.
 The test will read browser names from the Excel sheet and perform user registration on the specified browsers.
 Post-Test:
