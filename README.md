@@ -26,7 +26,7 @@ Automates user registration on the website, leveraging the POM classes for inter
 
 @AfterMethod:
 Ensures the browser is closed after each test.
-Usage
+
 
 
 
