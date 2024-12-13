@@ -32,27 +32,27 @@ Ensures the browser is closed after each test.
 
 Pre-requisites:
 
-*Install Java and Selenium dependencies.
-*Set up TestNG for test execution.
-*Ensure the Excel file with test data is available and correctly formatted, the file should have 1 column, 3 rows contains the data "chrome", "Firefox", "edge"
+* Install Java and Selenium dependencies.
+* Set up TestNG for test execution.
+* Ensure the Excel file with test data is available and correctly formatted, the file should have 1 column, 3 rows contains the data "chrome", "Firefox", "edge"
 
 
 
 
 Running the Test:
 
-Execute the UserRegister class as a TestNG test.
-The test will read browser names from the Excel sheet and perform user registration on the specified browsers.
+* Execute the UserRegister class as a TestNG test.
+* The test will read browser names from the Excel sheet and perform user registration on the specified browsers.
+  
 Post-Test:
 The browser session is closed after each test to maintain isolation.
-Notes
-Update the Excel file with valid browser names and necessary test data.
+
 
 
 
 
 Dependencies :
 
-Selenium WebDriver
-TestNG
-Apache POI (for Excel reading)
+* Selenium WebDriver
+* TestNG
+* Apache POI (for Excel reading)
