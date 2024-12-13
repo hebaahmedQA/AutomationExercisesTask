@@ -16,22 +16,7 @@ FactoryDesignPattern.BrowserDriverFactory:
 Provides browser-specific WebDriver instances.
 
 Pom.Pages:
-
-Contains POM classes for the application's web pages:
-HomePage: 
-
-Handles actions on the home page.
-LoginPage: 
-
-Handles login-related actions.
-RegisterationPage:
-
-Manages the user registration process.
-AccountCreatedPage:
-
-Verifies account creation.
-Test Class:
-UserRegister
+Contains POM classes for the application's web pages
 
 @DataProvider:
 Supplies browser names from the Excel sheet for testing.
@@ -40,7 +25,6 @@ testAutomationRegisterUser:
 Automates user registration on the website, leveraging the POM classes for interaction.
 
 @AfterMethod:
-
 Ensures the browser is closed after each test.
 Usage
 
