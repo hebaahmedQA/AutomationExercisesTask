@@ -9,22 +9,22 @@ Key Components
 
 Package Contents
 
-Data.ExcelReader:
-Reads test data (e.g., browser names) from an Excel file.
+* Data.ExcelReader:
+Reads test data  browser names) from an Excel file.
 
-FactoryDesignPattern.BrowserDriverFactory: 
-Provides browser-specific WebDriver instances.
+* FactoryDesignPattern.BrowserDriverFactory: 
+* Provides browser-specific WebDriver instances.
 
-Pom.Pages:
+* Pom.Pages:
 Contains POM classes for the application's web pages
 
-@DataProvider:
+* @DataProvider:
 Supplies browser names from the Excel sheet for testing.
 
-testAutomationRegisterUser:
+* testAutomationRegisterUser:
 Automates user registration on the website, leveraging the POM classes for interaction.
 
-@AfterMethod:
+* @AfterMethod:
 Ensures the browser is closed after each test.
 
 
@@ -32,9 +32,9 @@ Ensures the browser is closed after each test.
 
 Pre-requisites:
 
-Install Java and Selenium dependencies.
-Set up TestNG for test execution.
-Ensure the Excel file with test data is available and correctly formatted.
+*Install Java and Selenium dependencies.
+*Set up TestNG for test execution.
+*Ensure the Excel file with test data is available and correctly formatted, the file should have 1 column, 3 rows contains the data "chrome", "Firefox", "edge"
 
 
 
@@ -51,7 +51,8 @@ Update the Excel file with valid browser names and necessary test data.
 
 
 
-Dependencies
+Dependencies :
+
 Selenium WebDriver
 TestNG
 Apache POI (for Excel reading)
