@@ -2,6 +2,7 @@ Overview
 
 This code package implements a test automation framework for user registration on a sample website using Selenium WebDriver and TestNG. It follows the Page Object Model (POM) design pattern and incorporates a data-driven approach using an Excel sheet.
 This framework simplifies testing by reusing POM components and supporting cross-browser testing via the Factory Design Pattern.
+The code's purpose is to successfully register new users on three browsers: Chrome, Edge, and Firefox.
 
 
 Key Components
