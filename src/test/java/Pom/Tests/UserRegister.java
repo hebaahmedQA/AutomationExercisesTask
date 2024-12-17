@@ -13,11 +13,6 @@ import java.io.IOException;
 public class UserRegister {
 
     private WebDriver driver;
-    private HomePage homePage ;
-    private LoginPage loginPage;
-    private RegisterationPage registerationPage;
-    private AccountCreatedPage accountCreatedPage;
-
 
     // DataProvider to add browser name from Excel sheet
     @DataProvider(name = "excelData")
@@ -34,15 +29,10 @@ public class UserRegister {
         driver.get("https://automationexercise.com/");
 
         // Perform user registration steps
-
-        homePage =new HomePage(driver);
-        loginPage =new LoginPage(driver);
-        registerationPage = new RegisterationPage(driver);
-        accountCreatedPage = new AccountCreatedPage(driver);
-        homePage.clicksignupButton();
-        loginPage.signupClicking();
-        registerationPage.registerUser();
-        accountCreatedPage.verifyAccountCreated();
+        new HomePage(driver).clicksignupButton();
+        new LoginPage(driver).signupClicking();
+        new RegisterationPage(driver).registerUser();
+        new AccountCreatedPage(driver).verifyAccountCreated();
 
 
     }
