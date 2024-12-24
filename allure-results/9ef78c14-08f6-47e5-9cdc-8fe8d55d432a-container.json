@@ -1,0 +1,1 @@
+{"uuid":"9ef78c14-08f6-47e5-9cdc-8fe8d55d432a","name":"Pom.Tests.UserRegister.setup","children":["f995e9a8-6c52-4bd2-bfae-86f836a58173"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1734482803738,"stop":1734482880332}],"afters":[],"start":1734482803736,"stop":1734482880333}
