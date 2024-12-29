@@ -1,6 +1,5 @@
 
 package Pom.Tests;
-import Data.ExcelReader;
 import FactoryDesignPattern.BrowserDriverFactory ;
 import Pom.Pages.AccountCreatedPage;
 import Pom.Pages.HomePage;
@@ -18,11 +17,7 @@ public class UserRegister {
     private RegisterationPage registerationPage;
     private AccountCreatedPage accountCreatedPage;
 
-   /* // DataProvider to add browser name from Excel sheet
-    @DataProvider(name = "excelData")
-    public Object[][] userRegisterData() throws IOException {
-        return new ExcelReader().getExcelData();
-    }*/
+
 
     @Parameters("browserName")
     @BeforeMethod
